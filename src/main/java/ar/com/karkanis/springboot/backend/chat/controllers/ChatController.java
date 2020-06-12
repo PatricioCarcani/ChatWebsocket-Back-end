@@ -33,10 +33,9 @@ public class ChatController {
 		if(mensaje.getTipo().equals("NUEVO_USUARIO")) {
 			mensaje.setColor(colores[new Random().nextInt(colores.length)]);
 			mensaje.setTexto("¡" + mensaje.getUsername() + " se ha conectado!");
-		} else {
-			// guardar solo mensajes tipo MENSAJE
-			chatService.guardar(mensaje);
 		}
+		
+		chatService.guardar(mensaje);
 		
 		return mensaje;
 		
