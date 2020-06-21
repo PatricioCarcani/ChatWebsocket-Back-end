@@ -12,8 +12,10 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
 	@Override
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
-		registry.addEndpoint("/chat-websocket")
-		.setAllowedOrigins("http://localhost:4200") // CORS, para habilitar Angular
+		registry.addEndpoint("/ch"
+				+ "at-websocket")
+		.setAllowedOrigins("https://karkanis.com.ar/github/chat-app/chat", "*") // heroku 
+		//.setAllowedOrigins("http://localhost:4200") // CORS, para habilitar Angular
 		.withSockJS(); // STOMP usara SocksJs y protocolo HTTP en lugar del protocolo WS, para hacer mas compatible y evitar firewalls
 	}
 

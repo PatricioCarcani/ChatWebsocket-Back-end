@@ -1,0 +1,7 @@
+/home/karkanis/Dropbox/eclipse-linux-workspace-chat-websocket/spring-boot-backend-chat/src/main/java/ar/com/karkanis/springboot/backend/chat/models/services/ChatService.java
+/home/karkanis/Dropbox/eclipse-linux-workspace-chat-websocket/spring-boot-backend-chat/src/main/java/ar/com/karkanis/springboot/backend/chat/SpringBootBackendChatApplication.java
+/home/karkanis/Dropbox/eclipse-linux-workspace-chat-websocket/spring-boot-backend-chat/src/main/java/ar/com/karkanis/springboot/backend/chat/models/services/ChatServiceImpl.java
+/home/karkanis/Dropbox/eclipse-linux-workspace-chat-websocket/spring-boot-backend-chat/src/main/java/ar/com/karkanis/springboot/backend/chat/controllers/ChatController.java
+/home/karkanis/Dropbox/eclipse-linux-workspace-chat-websocket/spring-boot-backend-chat/src/main/java/ar/com/karkanis/springboot/backend/chat/WebSocketConfig.java
+/home/karkanis/Dropbox/eclipse-linux-workspace-chat-websocket/spring-boot-backend-chat/src/main/java/ar/com/karkanis/springboot/backend/chat/models/dao/ChatRepository.java
+/home/karkanis/Dropbox/eclipse-linux-workspace-chat-websocket/spring-boot-backend-chat/src/main/java/ar/com/karkanis/springboot/backend/chat/models/documents/Mensaje.java

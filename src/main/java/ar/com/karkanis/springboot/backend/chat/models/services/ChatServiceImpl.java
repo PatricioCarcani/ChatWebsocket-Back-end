@@ -16,13 +16,11 @@ public class ChatServiceImpl implements ChatService {
 	
 	@Override
 	public List<Mensaje> obtenerUltimos10Mensajes() {
-		// TODO Auto-generated method stub
 		return chatDao.findFirst10ByOrderByFechaDesc();
 	}
 
 	@Override
 	public Mensaje guardar(Mensaje mensaje) {
-		// TODO Auto-generated method stub
 		return chatDao.save(mensaje);
 	}
 
